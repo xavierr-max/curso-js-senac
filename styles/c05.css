@@ -23,26 +23,27 @@ body{
     margin-top: 0;
 }
 
+.mid{
+    display: flex;
+    justify-content: space-between;
+}
+
 .photo{
     width: 30%;
 }
 
-.linkedin{
-    width: 5%;
-}
-
 .shortcut{
-    text-align: right;
+    margin-top: 20%;
 }
 
-a{
+.social{
     padding: 15px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     text-decoration: none;
 }
 
-a:hover{
+.social:hover{
     color: aliceblue;
     background-color: black;
     transition: 0.5s;
