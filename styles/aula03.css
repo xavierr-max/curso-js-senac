@@ -1,0 +1,43 @@
+/* estilo externo */
+/* nao necessita de DOCTYPE */
+
+body {
+  background-color: rgb(34, 56, 116);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  background-color: #ffffff;
+  border: 5px solid red;
+  border-radius: 15px;
+  /* border-bottom: 5px solid #ffffff;
+  border-top: 5px dotted #ffffff;
+  border-left: 15px groove #fa0404;
+  border-right: 2px dashed #ffffff; */
+}
+
+h1:hover {
+    background-color: rgb(95, 25, 187);
+}
+
+h2 {
+  text-align: center;
+}
+
+h2:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+p {
+  color: green;
+  text-align: justify;
+}
+
+.vasco {
+  color: blueviolet;
+  text-align: right;
+}

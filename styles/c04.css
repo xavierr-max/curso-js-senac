@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  margin: auto;
+  /* define a ocupação em relação ao todo da tela ou do componente pai em % ou px */
+  width: 60%;
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: rgb(15, 194, 30);
+  color: aliceblue;
+  border-bottom: 5px solid black;
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+}
+
+h3 {
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+p {
+  background-color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(89, 0, 255);
+  border: 2px solid rgb(0, 83, 11);
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.first {
+  /* define a posição do bloco em % ou px */
+  margin-right: 50%;
+  text-align: center;
+}
+
+.second {
+  margin-left: 50%;
+  text-align: center;
+}

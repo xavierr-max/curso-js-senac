@@ -1,0 +1,50 @@
+<!-- desatualizado 16:43 -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <style>
+
+    </style>
+  </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .pai {
+        background-color: #ccc;
+        padding: 10px;
+        /* manipula o(s) componente(s) filho(s) */
+        display: flex;
+        /* horizontal e vertical */
+        flex-direction: row;
+        /* direita, centro, esquerda e ademais (space-...) */
+        justify-content: center;
+        height: 500px;
+        /* define/alinha os componentes em uma posição */
+        align-items: center;
+      }
+
+      .filho {
+        background-color: red;
+        text-align: center;
+        color: yellow;
+        font-size: 24px;
+        padding: 10px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pai">
+      <div class="filho primeiro">1</div>
+      <div class="filho segundo">2</div>
+      <div class="filho terceiro">3</div>
+      <div class="filho quarto">4</div>
+    </div>
+  </body>
+</html>
