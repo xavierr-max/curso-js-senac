@@ -1,35 +1,61 @@
-// TODO: Declaração
+// // TODO: Declaração
 
-function falaOi()
-{
-    console.log("oi");
-}
+// function falaOi()
+// {
+//     console.log("oi");
+// }
 
-falaOi();
+// falaOi();
 
-// TODO: Expression
+// // TODO: Expression
 
-const oi = function()
-{
-    console.log("Olá");
-}
+// const oi = function()
+// {
+//     console.log("Olá");
+// }
 
-oi();
+// oi();
 
-// TODO: Arrow
+// // TODO: Arrow
 
-const ok = () => 
-    {
-        console.log("Okay")
-    }
+// const ok = () => 
+//     {
+//         console.log("Okay")
+//     }
     
-    ok();
+//     ok();
     
-// TODO: Somar
+// // TODO: Somar
 
-function soma(a, b)
+// function soma(a, b)
+// {
+//     return a - b;
+// }
+
+// console.log(soma(2,3));
+
+// function numberType(a)
+// {
+//     if (a % 2 == 0)
+//         return "par"
+//     else
+//         return "impar"
+// }
+
+// console.log(numberType(3));
+
+function GreaterThan(a, b)
 {
-    return a - b;
+    if (a > b)
+        return a
+    else if (b > a)
+        return b
+    else
+        return "iguais"
 }
 
-console.log(soma(2,3));
+console.log(GreaterThan(4, 4));
+
+
+
+
