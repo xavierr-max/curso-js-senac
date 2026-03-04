@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f7;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #1d1d1f;
+}
+
+/* O "Card" que centraliza e organiza os elementos */
+body {
+    flex-direction: column;
+}
+
+/* Estilização dos elementos como um bloco coeso */
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    letter-spacing: -0.8px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 320px; /* Largura padrão de um widget de iPhone */
+    padding: 16px;
+    margin-bottom: 12px; /* Espaçamento consistente entre botões/inputs */
+    border: 1px solid #d2d2d7;
+    border-radius: 14px;
+    background-color: #fff;
+    font-size: 17px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    -webkit-appearance: none; /* Remove estilos padrão do mobile */
+}
+
+input:focus {
+    border-color: #0071e3;
+    box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.15);
+}
+
+button {
+    width: 100%;
+    max-width: 320px;
+    padding: 16px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 14px;
+    background-color: #0071e3;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover {
+    background-color: #0077ed;
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.96); /* Efeito de clique físico do iOS */
+}
+
+#result {
+    margin-top: 24px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #86868b;
+    text-align: center;
+    max-width: 300px;
+}
