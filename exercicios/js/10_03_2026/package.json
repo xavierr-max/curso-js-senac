@@ -1,0 +1,15 @@
+{
+  "name": "10_03_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "l01.js",
+  "scripts": {
+    "test": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

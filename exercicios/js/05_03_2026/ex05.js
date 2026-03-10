@@ -10,7 +10,7 @@ function Media(arr)
         return message + "O aluno está reprovado."
     else
     {
-        let rec = (resposta* 2 - 15) * -1  
+        let rec = (resposta * 2 - 15) * -1  
         let retorno = `O aluno precisa de ${rec.toFixed(2)} na PF.`
 
         return message + "O Aluno está em recuperação. " + retorno
