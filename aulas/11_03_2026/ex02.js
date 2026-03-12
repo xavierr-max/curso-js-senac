@@ -4,12 +4,12 @@ let arrayNumbers = []
 function Add()
 {
     // vincula ao input de numero
-    let inputNum = Number(document.getElementById("value")).value
+    let inputNum = Number(document.getElementById("value").value)
     // vincula a lista 
     let p = document.getElementById("list")
 
     // a lista recebe uma string vazia
-    p.innerText = " "
+    p.innerHTML = " "
     // incrementa o input a lista arrayNumbers
     arrayNumbers.push(inputNum)
     

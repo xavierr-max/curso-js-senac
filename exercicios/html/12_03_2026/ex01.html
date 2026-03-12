@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="../../css/12_03_2026/ex01.css">
+</head>
+<body>
+
+    <main class="app-container">
+        <header class="app-header">
+            <h2>Tabuada</h2>
+            <p class="subtitle">Insira um multiplicador para gerar os cálculos instantaneamente.</p>
+        </header>
+
+        <section class="controls-card">
+            <div class="input-group">
+                <label for="numero">Número base</label>
+                <input type="number" id="numero" placeholder="Ex: 7">
+            </div>
+            <button onclick="Criar()">Gerar Resultados</button>
+        </section>
+
+        <section class="results-section">
+            <h3 class="section-title">Cálculos</h3>
+            <ul id="resultado">
+                </ul>
+        </section>
+    </main>
+
+    <script src="../../js/12_03_2026/ex01.js"></script>
+</body>
+</html>
