@@ -1,4 +1,4 @@
-// ! necessita de um apagador de cache
+// ! necessita de um apagador de cache para o array global
 let valoresArray = []
 
 function Adicionar()
